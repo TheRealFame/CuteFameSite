@@ -1,0 +1,34 @@
+ .u-section-1 {
+  background-image: linear-gradient(#390094, #d46200);
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 740px;
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 506px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 380px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 239px;
+  }
+}.u-section-2 .u-sheet-1 {
+  min-height: 400px;
+}.u-section-3 .u-sheet-1 {
+  min-height: 400px;
+}@font-face {
+  font-family: 'VCR_OSD_MONO_1.001';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/VCR_OSD_MONO_1.001.ttf);
+}
