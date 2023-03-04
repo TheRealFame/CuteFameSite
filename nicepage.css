@@ -42629,14 +42629,14 @@ a.u-link.u-text-hover-grey-90:hover {
 /*end-variables sitestylecss*/
  .u-header {
   background-image: none;
-  min-height: 126px;
+  min-height: 139px;
 }
 
 .u-header .u-group-1 {
-  min-height: 125px;
+  min-height: 139px;
   height: auto;
   margin-top: 0;
-  margin-bottom: 1px;
+  margin-bottom: 0;
 }
 
 .u-header .u-container-layout-1 {
@@ -42645,16 +42645,16 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-shape-1 {
-  width: 104px;
-  height: 104px;
+  width: 115px;
+  height: 115px;
   background-image: none;
-  margin: 6px auto 0;
+  margin: 0 auto 0 530px;
 }
 
 .u-header .u-image-1 {
-  width: 90px;
-  height: 90px;
-  margin: -94px auto 0;
+  width: 110px;
+  height: 110px;
+  margin: -109px auto 0 532px;
 }
 
 .u-header .u-logo-image-1 {
@@ -42668,7 +42668,7 @@ a.u-link.u-text-hover-grey-90:hover {
   text-transform: uppercase;
   font-size: 1.875rem;
   box-shadow: -2px 2px 8px 0px rgba(128,128,128,1);
-  margin: -77px 328px 0 auto;
+  margin: -87px 328px 0 auto;
   padding: 6px 31px 6px 30px;
 }
 
@@ -42711,19 +42711,21 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-shape-1 {
-    width: 104px;
-    height: 104px;
+    width: 115px;
+    height: 115px;
     margin-top: 10px;
+    margin-left: 530px;
   }
 
   .u-header .u-image-1 {
-    width: 90px;
-    height: 90px;
-    margin-top: -94px;
+    width: 110px;
+    height: 110px;
+    margin-top: -110px;
+    margin-left: 433px;
   }
 
   .u-header .u-btn-1 {
-    margin-top: -77px;
+    margin-top: -87px;
     margin-right: 128px;
   }
 
@@ -42743,6 +42745,10 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 991px) {
+  .u-header .u-image-1 {
+    margin-left: 325px;
+  }
+
   .u-header .u-btn-1 {
     margin-right: 0;
   }
@@ -42756,8 +42762,24 @@ a.u-link.u-text-hover-grey-90:hover {
     padding-left: 10px;
     padding-right: 10px;
   }
-}
 
+  .u-header .u-shape-1 {
+    margin-left: 405px;
+  }
+
+  .u-header .u-image-1 {
+    margin-left: 256px;
+  }
+}
+@media (max-width: 575px) {
+  .u-header .u-shape-1 {
+    margin-left: 205px;
+  }
+
+  .u-header .u-image-1 {
+    margin-left: 158px;
+  }
+}
  .u-footer {
   background-image: none;
 }
