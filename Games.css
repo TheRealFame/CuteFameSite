@@ -1,0 +1,51 @@
+ .u-section-1 {
+  background-image: linear-gradient(#478ac9, #db545a);
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 409px;
+}
+
+.u-section-1 .u-btn-1 {
+  font-family: "VCR_OSD_MONO_1.001";
+  border-style: solid;
+  text-transform: uppercase;
+  font-size: 1.875rem;
+  box-shadow: -2px 2px 8px 0px rgba(128,128,128,1);
+  margin: 20px auto 0 20px;
+  padding: 6px 31px 6px 30px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 384px;
+  height: 305px;
+  margin: 1px auto 20px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-btn-1 {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 338px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 206px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 270px;
+  }
+}@font-face {
+  font-family: 'VCR_OSD_MONO_1.001';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/VCR_OSD_MONO_1.001.ttf);
+}
