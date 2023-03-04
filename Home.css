@@ -1,6 +1,5 @@
  .u-section-1 {
   background-image: linear-gradient(#3c0949, black);
-  min-height: 3214px;
 }
 
 .u-section-1 .u-group-1 {
@@ -11,12 +10,12 @@
 }
 
 .u-section-1 .u-container-layout-1 {
-  padding: 0 30px 30px;
+  padding: 0 0 30px;
 }
 
 .u-section-1 .u-text-1 {
   font-size: 3.75rem;
-  margin: 132px 6px 0;
+  margin: 99px 0 0;
 }
 
 .u-section-1 .u-image-1 {
@@ -49,11 +48,16 @@
   margin: 1px 0 0;
 }
 
-.u-section-1 .u-group-4 {
-  width: 432px;
-  min-height: 330px;
-  height: auto;
-  margin: 247px auto 0 calc(((100% - 1140px) / 2));
+.u-section-1 .u-list-1 {
+  width: 340px;
+  margin: 365px auto 0;
+}
+
+.u-section-1 .u-repeater-1 {
+  min-height: 1430px;
+  grid-auto-columns: 100%;
+  grid-template-columns: repeat(1, 100%);
+  grid-gap: 250px;
 }
 
 .u-section-1 .u-container-layout-4 {
@@ -61,15 +65,8 @@
 }
 
 .u-section-1 .u-text-3 {
-  font-size: 3.75rem;
-  margin: 132px 6px 0;
-}
-
-.u-section-1 .u-group-5 {
-  width: 432px;
-  min-height: 330px;
-  height: auto;
-  margin: -330px calc(((100% - 1140px) / 2) + 71px) 0 auto;
+  font-size: 1.5rem;
+  margin: 132px auto 0 16px;
 }
 
 .u-section-1 .u-container-layout-5 {
@@ -77,15 +74,8 @@
 }
 
 .u-section-1 .u-text-4 {
-  font-size: 3.75rem;
-  margin: 132px 6px 0;
-}
-
-.u-section-1 .u-group-6 {
-  width: 785px;
-  min-height: 539px;
-  height: auto;
-  margin: 605px auto 0;
+  font-size: 1.5rem;
+  margin: 132px auto 0 16px;
 }
 
 .u-section-1 .u-container-layout-6 {
@@ -93,16 +83,15 @@
 }
 
 .u-section-1 .u-text-5 {
-  font-size: 4.5rem;
+  font-size: 1.5rem;
   font-family: "VCR_OSD_MONO_1.001";
   font-weight: 700;
-  margin: 230px auto 0;
+  margin: 132px auto 0 16px;
 }
 
-.u-section-1 .u-group-7 {
+.u-section-1 .u-group-4 {
   min-height: 138px;
   height: auto;
-  margin-top: 696px;
   margin-bottom: 0;
 }
 
@@ -134,20 +123,6 @@
   }
 
   .u-section-1 .u-group-4 {
-    margin-left: calc(((100% - 940px) / 2));
-    height: auto;
-  }
-
-  .u-section-1 .u-group-5 {
-    margin-right: calc(((100% - 940px) / 2) + 71px);
-    height: auto;
-  }
-
-  .u-section-1 .u-group-6 {
-    height: auto;
-  }
-
-  .u-section-1 .u-group-7 {
     height: auto;
   }
 
@@ -163,23 +138,13 @@
   }
 
   .u-section-1 .u-image-1 {
+    margin-top: 20px;
     margin-left: calc(((100% - 720px) / 2));
+    margin-bottom: initial;
   }
 
   .u-section-1 .u-group-3 {
     margin-left: calc(((100% - 720px) / 2));
-  }
-
-  .u-section-1 .u-group-4 {
-    margin-left: calc(((100% - 720px) / 2));
-  }
-
-  .u-section-1 .u-group-5 {
-    margin-right: calc(((100% - 720px) / 2) + 71px);
-  }
-
-  .u-section-1 .u-group-6 {
-    width: 720px;
   }
 }
 
@@ -188,12 +153,8 @@
     margin-right: calc(((100% - 540px) / 2));
   }
 
-  .u-section-1 .u-container-layout-1 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
   .u-section-1 .u-image-1 {
+    margin-bottom: 0;
     margin-left: calc(((100% - 540px) / 2));
   }
 
@@ -206,26 +167,14 @@
     padding-right: 10px;
   }
 
-  .u-section-1 .u-group-4 {
-    margin-left: calc(((100% - 540px) / 2));
-  }
-
   .u-section-1 .u-container-layout-4 {
     padding-left: 10px;
     padding-right: 10px;
   }
 
-  .u-section-1 .u-group-5 {
-    margin-right: calc(((100% - 540px) / 2) + 71px);
-  }
-
   .u-section-1 .u-container-layout-5 {
     padding-left: 10px;
     padding-right: 10px;
-  }
-
-  .u-section-1 .u-group-6 {
-    width: 540px;
   }
 
   .u-section-1 .u-container-layout-6 {
@@ -240,49 +189,54 @@
 }
 
 @media (max-width: 575px) {
+   .u-section-1 {
+    min-height: 3957px;
+  }
+
   .u-section-1 .u-group-1 {
     width: 340px;
-    margin-right: calc(((100% - 340px) / 2));
+    margin-top: 1212px;
+    margin-right: auto;
   }
 
   .u-section-1 .u-text-1 {
     font-size: 1.5rem;
+    width: auto;
+    margin-top: 152px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .u-section-1 .u-image-1 {
     width: 340px;
-    margin-left: calc(((100% - 340px) / 2));
+    margin-top: -907px;
+    margin-left: auto;
   }
 
   .u-section-1 .u-group-3 {
     width: 340px;
+    margin-top: 0;
     margin-left: calc(((100% - 340px) / 2));
+  }
+
+  .u-section-1 .u-list-1 {
+    margin-top: 676px;
+  }
+
+  .u-section-1 .u-container-layout-4 {
+    padding-bottom: 10px;
+  }
+
+  .u-section-1 .u-container-layout-5 {
+    padding-bottom: 10px;
+  }
+
+  .u-section-1 .u-container-layout-6 {
+    padding-bottom: 10px;
   }
 
   .u-section-1 .u-group-4 {
-    width: 340px;
-    margin-left: calc(((100% - 340px) / 2));
-  }
-
-  .u-section-1 .u-text-3 {
-    font-size: 1.5rem;
-  }
-
-  .u-section-1 .u-group-5 {
-    width: 340px;
-    margin-right: calc(((100% - 340px) / 2));
-  }
-
-  .u-section-1 .u-text-4 {
-    font-size: 1.5rem;
-  }
-
-  .u-section-1 .u-group-6 {
-    width: 340px;
-  }
-
-  .u-section-1 .u-text-5 {
-    font-size: 1.5rem;
+    margin-top: 661px;
   }
 }@font-face {
   font-family: 'VCR_OSD_MONO_1.001';
