@@ -3,7 +3,7 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 409px;
+  min-height: 972px;
 }
 
 .u-section-1 .u-btn-1 {
@@ -19,7 +19,13 @@
 .u-section-1 .u-image-1 {
   width: 384px;
   height: 305px;
-  margin: 1px auto 20px;
+  margin: 51px auto 0;
+}
+
+.u-section-1 .u-image-2 {
+  width: 623px;
+  height: 350px;
+  margin: 77px auto 60px;
 }
 
 @media (max-width: 1199px) {
@@ -30,18 +36,28 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 338px;
+    min-height: 925px;
+  }
+
+  .u-section-1 .u-image-2 {
+    width: 540px;
+    height: 303px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 206px;
+    min-height: 778px;
   }
 
   .u-section-1 .u-image-1 {
     width: 340px;
     height: 270px;
+  }
+
+  .u-section-1 .u-image-2 {
+    width: 340px;
+    height: 191px;
   }
 }@font-face {
   font-family: 'VCR_OSD_MONO_1.001';
