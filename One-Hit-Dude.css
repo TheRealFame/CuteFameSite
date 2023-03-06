@@ -68,7 +68,13 @@
 }
 
 .u-section-2 .u-text-1 {
-  margin: 60px 228px 60px auto;
+  font-family: "VCR_OSD_MONO_1.001";
+  margin: 60px auto;
+}
+
+.u-section-2 .u-btn-1 {
+  background-image: none;
+  padding: 0;
 }
 
 @media (max-width: 767px) {
